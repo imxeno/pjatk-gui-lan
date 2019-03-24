@@ -5,6 +5,7 @@ import pl.edu.pja.gui.lan.zadanie2.Zadanie2;
 import pl.edu.pja.gui.lan.zadanie3.Zadanie3;
 import pl.edu.pja.gui.lan.zadanie4.Zadanie4;
 import pl.edu.pja.gui.lan.zadanie5.Zadanie5;
+import pl.edu.pja.gui.lan.zadanie6.Zadanie6;
 
 public class Main {
 
@@ -24,6 +25,9 @@ public class Main {
 
         headerZadania(5);
         Zadanie5.run();
+
+        headerZadania(6);
+        Zadanie6.run();
 
     }
 
