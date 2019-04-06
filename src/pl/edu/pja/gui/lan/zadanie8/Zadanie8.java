@@ -31,5 +31,11 @@ public class Zadanie8 {
         bs.addAll(ts);
         bs.swap(0,1);
         bs.print();                                                                         // java, cpp
+
+        // Testy
+
+        System.out.println(bs.delete("cpp"));
+        System.out.println(bs.search("cpp"));
+        bs.print();
     }
 }

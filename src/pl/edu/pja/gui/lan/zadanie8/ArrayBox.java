@@ -104,6 +104,7 @@ public class ArrayBox<T extends Comparable<? super T>> {
     public void print() {
         boolean skipComma = true;
         for(T elem : this.array) {
+            if(elem == null) continue;
             System.out.print((skipComma ? "" : ", ") + elem);
             skipComma = false;
         }
