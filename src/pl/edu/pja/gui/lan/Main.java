@@ -59,6 +59,9 @@ public class Main {
             e.printStackTrace();
         }
 
+        headerZadania(11);
+        Zadanie11.main(new String[]{});
+
     }
 
     public static void headerZadania(int numer) {
