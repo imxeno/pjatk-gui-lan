@@ -1,7 +1,7 @@
 package pl.edu.pja.gui.lan.zadanie9;
 
 public class Zadanie9 {
-    public static void run() {
+    public static void main(String[] args) {
         Chor chor = new Chor("ABC");
         for (Thread t : chor.getThreads()) System.out.println(t.getName());
         /*<- tu uruchomić

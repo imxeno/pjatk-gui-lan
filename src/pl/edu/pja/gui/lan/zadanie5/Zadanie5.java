@@ -1,7 +1,7 @@
 package pl.edu.pja.gui.lan.zadanie5;
 
 public class Zadanie5 {
-    public static void run() {
+    public static void main(String[] args) {
         Spiewak s1 = new Spiewak("Carrey"){
             @Override
             public String spiewaj() {

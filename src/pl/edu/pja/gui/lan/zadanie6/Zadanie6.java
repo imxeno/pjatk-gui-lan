@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class Zadanie6 {
-    public static void run() {
+    public static void main(String[] args) {
         ArrayList<Spiewak> arrayList = new ArrayList<Spiewak>();
 
         arrayList.add(new Spiewak("Darrey") {

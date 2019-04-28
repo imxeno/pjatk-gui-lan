@@ -1,7 +1,7 @@
 package pl.edu.pja.gui.lan.zadanie8;
 
 public class Zadanie8 {
-    public static void run() {
+    public static void main(String[] args) {
         ArrayBox<Osoba>  bo = new ArrayBox<>(2);
 
         bo.add(new Osoba("Kowalski", 19));                        // nazwisko = "Kowalki", wiek = 19

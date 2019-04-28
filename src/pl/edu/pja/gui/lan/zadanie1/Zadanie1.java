@@ -2,7 +2,7 @@ package pl.edu.pja.gui.lan.zadanie1;
 
 public class Zadanie1 {
 
-    public static void run() {
+    public static void main(String[] args) {
 
         ZProstokat zp[] = {
                 new ZProstokat(4, 'a', 'e'),        // konstruktor z 3 parametrami

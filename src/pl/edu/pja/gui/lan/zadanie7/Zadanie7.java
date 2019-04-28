@@ -1,7 +1,7 @@
 package pl.edu.pja.gui.lan.zadanie7;
 
 public class Zadanie7 {
-    public static void run() {
+    public static void main(String[] args) {
         IterNap napis = new IterNap("prOgrAmoWanIe ObiEktOwe i Gui");
 
         // iteracja po znakach napisu,

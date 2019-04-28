@@ -1,7 +1,7 @@
 package pl.edu.pja.gui.lan.zadanie4;
 
 public class Zadanie4 {
-    public static void run() {
+    public static void main(String[] args) {
         Reversible[] revers = new Reversible[]{
                 new ReversibleString("Kot2019"),
                 new ReversibleInt(2),

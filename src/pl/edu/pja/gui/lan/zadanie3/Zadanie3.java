@@ -1,7 +1,7 @@
 package pl.edu.pja.gui.lan.zadanie3;
 
 public class Zadanie3 {
-    public static void run() {
+    public static void main(String[] args) {
         Muzyk[] muzycy = {new Skrzypek("Aleks", 2),	// Imie, czas wystapienia (w godz.)
                 new Wiolonczelista("Bartek", 1),
                 new Flecista("Czarek", 0.5)};
