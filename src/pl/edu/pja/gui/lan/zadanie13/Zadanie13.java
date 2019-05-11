@@ -17,6 +17,7 @@ public class Zadanie13 {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         JPanel panel = new JPanel();
+        panel.setLayout(new FlowLayout());
         frame.setContentPane(panel);
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -53,7 +54,10 @@ public class Zadanie13 {
                     elems.add(line);
                 }
                 GraphicsPanel newPanel = new GraphicsPanel(elems);
-                frame.setContentPane(newPanel);
+                panel.remove(fileName);
+                panel.remove(loadButton);
+                frame.add(newPanel);
+                frame.pack();
 
                 } catch (IOException exc) {
                 JOptionPane.showMessageDialog(frame, exc.getMessage());
