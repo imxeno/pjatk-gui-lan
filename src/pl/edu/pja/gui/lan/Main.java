@@ -5,6 +5,7 @@ import pl.edu.pja.gui.lan.zadanie10.Zadanie10;
 import pl.edu.pja.gui.lan.zadanie11.Zadanie11;
 import pl.edu.pja.gui.lan.zadanie12.Zadanie12;
 import pl.edu.pja.gui.lan.zadanie13.Zadanie13;
+import pl.edu.pja.gui.lan.zadanie14.Zadanie14;
 import pl.edu.pja.gui.lan.zadanie2.Zadanie2;
 import pl.edu.pja.gui.lan.zadanie3.Zadanie3;
 import pl.edu.pja.gui.lan.zadanie4.Zadanie4;
@@ -37,6 +38,7 @@ public class Main {
         zadania.put(11, Zadanie11.class);
         zadania.put(12, Zadanie12.class);
         zadania.put(13, Zadanie13.class);
+        zadania.put(14, Zadanie14.class);
 
         System.out.println("Lista zadań:\n");
 
