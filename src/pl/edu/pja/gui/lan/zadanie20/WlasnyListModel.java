@@ -16,7 +16,7 @@ public class WlasnyListModel extends AbstractListModel<String> {
     @Override
     public String getElementAt(int index) {
         return "" + (index + 1) + " - " + LocalDate.now()
-                .minusDays(1 - LocalDate.now().getDayOfMonth())
+                .minusDays(LocalDate.now().getDayOfMonth() - 1)
                 .plusDays(index).getDayOfWeek()
                 .getDisplayName(TextStyle.FULL, new Locale("PL")).toString();
     }
